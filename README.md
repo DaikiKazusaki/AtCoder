@@ -1,1 +1,1 @@
-# AtCoder入力テンプレート~Python編~
+# AtCoder入力テンプレートPython編
