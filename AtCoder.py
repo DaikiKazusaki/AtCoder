@@ -33,3 +33,10 @@ A = [list(map(int, input().split())) for _ in range(N)]
 
 # 複数行の小数列を受け取る場合
 A = [list(map(float, input().split())) for _ in range(N)]
+
+## 以下は空白で区切られていない複数行の入力を受け取る場合
+
+# 複数行の文字列を受け取る場合
+A = []
+for i in range(N):
+    A.append(list(input()))
