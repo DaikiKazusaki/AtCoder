@@ -9,6 +9,6 @@ for i in range(n):
     for j in range(len(s[i])):
         t[j][n - i - 1] = s[i][j]
 for i in range(m):
-    while t[i][-1] == "*":
+    while t[i][-1] == '*':
         t[i].pop()
-    print("".join(t[i]))
+    print(''.join(t[i]))
