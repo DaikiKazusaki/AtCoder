@@ -1,7 +1,5 @@
 n = int(input())
-s = []
-for i in range(n):
-    s.append(list(input()))
+s = [input() for _ in range(n)]
 
 m = max(len(s[i]) for i in range(n))
 
