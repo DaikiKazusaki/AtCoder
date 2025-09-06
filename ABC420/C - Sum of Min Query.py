@@ -21,5 +21,4 @@ for i in range(q):
     b[x] = v
     ans += min(a[x], b[x])
 
-  print(ans)
-  
+  print(ans)  
