@@ -6,5 +6,6 @@ answer = 0
 
 for i in range(n):
     answer += a[i] * (sum - a[i])
+    sum -= a[i]
 
-print(answer // 2)
+print(answer)
