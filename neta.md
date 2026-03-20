@@ -35,10 +35,10 @@ print(num_a + num_b + s[-1])
 ```
 
 ## [ABC408 - C - Not All Coverd](https://atcoder.jp/contests/abc408/tasks/abc408_c)
-砲台 $i$ が守っている城壁（ $l_i$～$r_i$ ）を記録する方法としてimos法がある．  
-imos法とは， $l_i$～$r_i$ がカバーしている領域を1次元の配列を利用して解く方法である．記録する内容は以下の通り．
-1. array[$l_i$-1]はカバー開始なので，1を加算
-1. array[$r_i$]はカバー終了なので，1を減算
+砲台 $i$ が守っている城壁（ $l_i$ ～ $r_i$ ）を記録する方法としてimos法がある．  
+imos法とは， $l_i$ ～ $r_i$ がカバーしている領域を1次元の配列を利用して解く方法である．記録する内容は以下の通り．
+1. array[ $l_i-1$ ]はカバー開始なので，1を加算
+1. array[ $r_i$ ]はカバー終了なので，1を減算
 1. arrayを前から順番に足していくことで，array[$i$]のカバー数を計算
 ```python
 n, m = map(int, input().split())
